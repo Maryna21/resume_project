@@ -6,8 +6,6 @@
     <title>My resume</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -19,15 +17,17 @@
             <div class="contacts-container">
                 <h3 class="contacts-title">Contacts</h3>
                 <div class="contacts-link-type">
-                   <a class="contacts-link" href="tel:+380961142938"><span class="material-icons">
-                        stay_current_portrait</span>+38 096 114 29 38</a> 
+                   <a class="contacts-link" href="tel:+380961142938"><svg class="material-icons" width=24 height=24 fill=#f5f7fa>
+                    <use href="./symbol-defs.svg#icon-mobile"></use>
+                  </svg>+38 096 114 29 38</a> 
                 </div> 
                <div class="contacts-link-type">
-                   <a class="contacts-link" href="mailto:m.g.zhegalina@gmail.com"><span class="material-icons">email
-                </span>m.g.zhegalina@gmail.com</a> 
+                   <a class="contacts-link" href="mailto:m.g.zhegalina@gmail.com"> <svg class="material-icons" width=24 height=24 fill=#f5f7fa>
+                    <use href="./symbol-defs.svg#icon-envelop"></use>
+                  </svg>m.g.zhegalina@gmail.com</a> 
                 </div> 
                 <div class="contacts-link-type">
-                    <a class="contacts-link" href="mailto:m.g.zhegalina@gmail.com">
+                    <a class="contacts-link" href="https://github.com/Maryna21">
                         <svg class="material-icons" width=24 height=24 fill=#f5f7fa>
                         <use href="./symbol-defs.svg#icon-github"></use>
                       </svg>https://github.com/Maryna21</a> 
@@ -55,6 +55,8 @@
                         <li class="skills-item"><span class="skills-text">Redux</span>
                         </li>
                         <li class="skills-item"><span class="skills-text">REST API</span>
+                        </li>
+                        <li class="skills-item"><span class="skills-text">Angular</span>
                         </li>
                         <li class="skills-item"><span class="skills-text">Node.js</span>
                         </li>
@@ -97,7 +99,11 @@
         <div class="info-container">
             <h2 class="profession" >Front-End Developer</h2>
             <h1 class="name">Maryna Zhehalina</h1>
-            <p class="discription">I`m looking for interesting jod to develop and deepen knowledge in IT working with friendly team.</p>
+            <p class="discription">
+                I’m looking for interesting job as front-end developer in friendly, thriving, and
+exciting company to develop my skills as well as grove with a team.
+                <!-- I`m looking for interesting jod to develop and deepen knowledge in IT working with friendly team. Work with new IT-technologies -->
+            </p>
         </div>
         <!--projects container-->
         <div class="projects-container">
@@ -108,12 +114,17 @@
             href="https://a-danilenko.github.io/parcel-project-template/">Barber Shop</a> 
             <span class="dots">.............</span>
             <span> <b> [ </b><span class="tech-name" >HTML, CSS </span> <b> ]</b></span>
+            <p class="project-description">In this project our teem realised mobile-first adaptive landing page to introduce and attract teens
+                to IT-technologies. I did block with price.</p>
+
         </li>
         <li class="projects-item"> 
                <a class="projects-link" 
                href="http://e66968xz.beget.tech/category#property">OLX</a> 
                <span class="dots">................................</span>
                <span> <b> [ </b><span class="tech-name" > HTML, CSS, SASS, JavaScript </span> <b>]</b> </span>
+               <p class="project-description">Description: mobile-first adaptive web-page with authorization, profile page,
+                ability to add new products and order confirmation. I realised products cart responsible makeup and use JavaScript and work with REST API.</p>
         </li>
               
         <!-- <li class="projects-item"> 
@@ -129,7 +140,7 @@
             <h3 class="about-me-title">Education</h3> 
             <p class="education-place">GoIT</p> 
             <p class="education-specialty">Full stack developer</p>
-            <span class="profession-period">Septermber 2009 - June 2014 <span class="profession-divider"> | </span> Ukraine</span>
+            <span class="profession-period">May 2020 - May 2021 <span class="profession-divider"> | </span> Ukraine</span>
             <ul class="profession-duties">
                 <li class="profession-duties-item">Create Web application</li>
                 <li class="profession-duties-item">Work in teem projects</li>
